@@ -1,6 +1,19 @@
+# Make Makefile and related files not detectable
+Makefile linguist-detectable=false
+*.make linguist-detectable=false
+
+# Exclude C++ files from language statistics
+*.cpp linguist-detectable=false
+*.h linguist-detectable=false
+
+# Exclude CMake files from language statistics
+*.cmake linguist-detectable=false
+
+# Exclude Swift files from language statistics
+*.swift linguist-detectable=false
+
+# Exclude Ruby files from language statistics
+*.rb linguist-detectable=false
+
+# Set Dart files to be detectable
 *.dart linguist-detectable=true
-*.csharp linguist-detectable=false  
-*.java linguist-detectable=false  
-*.js linguist-detectable=false  
-*.html linguist-detectable=false  
-*.xml linguist-detectable=false
