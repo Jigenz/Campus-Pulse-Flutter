@@ -1,6 +1,6 @@
+*.dart linguist-detectable=true
 *.python linguist-detectable=false
 *.makefile linguist-detectable=false
-*.dart linguist-detectable=true
 *.java linguist-detectable=false
 *.c++ linguist-detectable=false
 *.cmake linguist-detectable=false
