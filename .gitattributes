@@ -1,6 +1,7 @@
 # Make Makefile and related files not detectable
 Makefile linguist-detectable=false
 *.make linguist-detectable=false
+Makefile linguist-vendored=true
 
 # Exclude C++ files from language statistics
 *.cpp linguist-detectable=false
@@ -17,3 +18,4 @@ Makefile linguist-detectable=false
 
 # Set Dart files to be detectable
 *.dart linguist-detectable=true
+
